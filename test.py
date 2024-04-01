@@ -4,18 +4,19 @@ import json
 url = "https://modelslab.com/api/v5/controlnet"
 
 payload = json.dumps({
-    "key": "",
+    "key": "Rr4zRlJRJes7ToWf65vTKzu1ijjDIFlhV18Yy87Sl6K01Y2hbDFhzZW2rkrE",
     "controlnet_type": "canny",
     "controlnet_model": "canny",
     "model_id": "midjourney",
-    "init_image": "https://huggingface.co/takuma104/controlnet_dev/resolve/main/gen_compare/control_images/converted/control_human_openpose.png",
+    "init_image": "https://raw.githubusercontent.com/aitechguy0105/NFT-simpson-dogs/main/white-dog.jpg",
+    "ip_adapter_id": "ip-adapter_sd15",
     "mask_image": None,
     "control_image": None,
     "auto_hint":"yes",
     "width": "512",
     "height": "512",
-    "prompt": " (a frog wearing blue jean), full-body, Ghibli style, Anime, vibrant colors, HDR, Enhance, ((plain black background)), masterpiece, highly detailed, 4k, HQ, separate colors, bright colors",
-    "negative_prompt": "human, unstructure, (black object, white object), colorful background, nsfw",
+    "prompt": "simpson image of this dog",
+    "negative_prompt": "human",
     "guess_mode": None,
     "use_karras_sigmas": "yes",
     "algorithm_type": None,
